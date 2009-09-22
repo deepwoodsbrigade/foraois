@@ -36,6 +36,8 @@ Rails::Initializer.run do |config|
   config.gem "RedCloth",
     :version  => ">= 4.2.2"
   
+  config.gem 'twitter-auth', :lib => 'twitter_auth'
+  
   config.plugins = [ :haml, :all ]
   
   # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
