@@ -4,3 +4,4 @@ tmp/restart.txt
 config/*.yml
 db/*.sqlite3
 app/stylesheets/.sass-cache
+log/*.log
