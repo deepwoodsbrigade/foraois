@@ -36,7 +36,7 @@ Rails::Initializer.run do |config|
   config.gem "RedCloth",
     :version  => ">= 4.2.2"
   
-  config.gem 'twitter-auth', :lib => 'twitter_auth'
+  # config.gem 'twitter-auth', :lib => 'twitter_auth'
   
   config.plugins = [ :haml, :all ]
   
